@@ -186,6 +186,7 @@ def detect_features_with_llm_in_bulk(
     Returns:
         features: list of evaluated features
     """
+    print(config)
     retries = 3
     for this_retry in range(retries):
         try:
